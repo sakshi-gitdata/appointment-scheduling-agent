@@ -1,0 +1,54 @@
+{
+  "doctor_id": "dr-001",
+  "working_hours": {
+    "monday": [
+      "09:00-17:00"
+    ],
+    "tuesday": [
+      "09:00-17:00"
+    ],
+    "wednesday": [
+      "09:00-17:00"
+    ],
+    "thursday": [
+      "09:00-17:00"
+    ],
+    "friday": [
+      "09:00-17:00"
+    ]
+  },
+  "appointments": [
+    {
+      "date": "2025-11-05",
+      "start_time": "10:00",
+      "end_time": "10:30",
+      "appointment_type": "consultation",
+      "patient_name": "Existing Patient"
+    },
+    {
+      "booking_id": "APPT-c1b3ddf7",
+      "status": "confirmed",
+      "confirmation_code": "D9825C",
+      "details": {
+        "appointment_type": "Consultation",
+        "date": "2025-11-10",
+        "start_time": "2025-11-10T10:00:00",
+        "patient": {
+          "name": "Sakshi Sharma",
+          "email": "sakshi@example.com",
+          "phone": "+919876543210"
+        },
+        "reason": null
+      },
+      "date": "2025-11-10",
+      "start_time": "2025-11-10T10:00:00",
+      "end_time": "2025-11-10T10:00:00"
+    }
+  ],
+  "slot_durations": {
+    "consultation": 30,
+    "followup": 15,
+    "physical": 45,
+    "specialist": 60
+  }
+}
